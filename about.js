@@ -26,9 +26,23 @@ const myImg = document.getElementById("myImg");
 const myButton = document.getElementById("myButton");
 
 myButton.addEventListener("click", function() {
-  if (myImg.src.endsWith("/images/Tati1.jpg")) {
-    myImg.src = "/images/Tati2.jpg.jpeg";
+  if (myImg.src.endsWith("/myImages/Tati1.jpg")) {
+    myImg.src = "/myImages/Tati2.jpg.jpeg";
   } else {
-    myImg.src = "/images/Tati1.jpg";
+    myImg.src = "/myImages/Tati1.jpg";
   }
 });
+
+
+// Added click event listener for second button
+const p = document.getElementById("p");
+const  Button2 = document.getElementById("Bttn2");
+
+ Button2.addEventListener("click", changeColor);
+function changeColor() {
+  if (p.style.color == "black") {
+    p.style.color = "magenta";
+  } else {
+    p.style.color = "black";
+  }
+}
