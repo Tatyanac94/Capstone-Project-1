@@ -2,3 +2,12 @@ html {
   height: 100%;
   width: 100%;
 }
+
+#myNav a {
+  color: #6d1aa8;
+}
+
+#myNav a:hover {
+  background-color: #2B86C5;
+  color: #6d1aa8;
+}
