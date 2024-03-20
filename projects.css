@@ -30,3 +30,24 @@ body {
 #title1:hover {
   color: #2B86C5;
 }
+
+#SB {
+  margin-top: 10px;
+  padding: 14px 20px;
+  border-style: double 100px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#myULS {
+  margin-top: 10px;
+  text-align: center;
+  opacity: 0.5;
+}
+
+li {
+  margin-top: 10px;
+
+}
