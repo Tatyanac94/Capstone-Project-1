@@ -11,3 +11,22 @@ html {
   background-color: #6d1aa8;
   color: #2B86C5;
 }
+
+
+body {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  background-color: #FF3CAC;
+  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+#title1 {
+  font-weight: bold;
+}
+
+#title1:hover {
+  color: #2B86C5;
+}
