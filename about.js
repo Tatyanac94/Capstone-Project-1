@@ -19,3 +19,16 @@ aboutMe(message, 140).forEach(promise => {
     document.querySelector('p').innerHTML = portion;
   });
 });
+
+
+// Added a click event listener for first button 
+const myImg = document.getElementById("myImg");
+const myButton = document.getElementById("myButton");
+
+myButton.addEventListener("click", function() {
+  if (myImg.src.endsWith("/images/Tati1.jpg")) {
+    myImg.src = "/images/Tati2.jpg.jpeg";
+  } else {
+    myImg.src = "/images/Tati1.jpg";
+  }
+});
