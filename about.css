@@ -1,0 +1,13 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#myNav a {
+  color: #FF3CAC;
+}
+
+#myNav a:hover {
+  background-color: #6d1aa8;
+  color: #FF3CAC;
+}
