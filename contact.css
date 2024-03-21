@@ -2,18 +2,13 @@ html {
   height: 100%;
   width: 100%;
 }
-
-
 #myNav a {
   color: #6d1aa8;
 }
-
 #myNav a:hover {
   background-color: #2B86C5;
   color: #6d1aa8;
 }
-
-
 body {
   padding-top: 30px;
   padding-bottom: 60px;
@@ -24,10 +19,7 @@ body {
   position: relative;
   top: 60px;
 }
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
-
-
 body{
    font-family: "Montserrat", sans-serif;
 
@@ -41,16 +33,12 @@ body{
   color: #000000;
 
 }
-
-
 .fc-event {
     border: 1px solid #f910e6 !important;
 }
-
 .fc-content {
     padding: 3px !important;
 }
-
 .fc-content .fc-title {
     display: block !important;
     overflow: hidden;
@@ -59,7 +47,6 @@ body{
     font-weight: 500;
     text-align: center;
 }
-
 .fc-customButton-button {
     font-size: 13px !important;
     position: absolute;
@@ -74,27 +61,19 @@ body{
 
     margin-bottom: 1rem;
 }
-
 .form-group>label {
 
     margin-bottom: 10px;
 }
-
 #delete-modal .modal-footer > .btn {
 
     border-radius: 3px !important; 
     padding: 0px 8px !important;
     font-size: 15px;
-
  }
-
-
-
-
 .fc-scroller {
     overflow-y: hidden !important;
 }
-
 .context-menu {
     position: absolute;
     z-index: 1000;
@@ -104,18 +83,11 @@ body{
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
     padding: 5px;
 }
-
-/* .context-menu.show {
-    display: block;
-  } */
-
 .context-menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-
 }
-
 .context-menu ul>li {
     display: block;
     ;
@@ -127,36 +99,23 @@ body{
     margin: 0 auto;
     transition: 0.10s;
     font-size: 13px;
-
-
 }
-
 .context-menu ul>li:hover {
     color: #fff;
     background-color: #007bff;
     border-radius: 2px;
-
 }
-
 .fa,
 .fas {
     font-size: 13px;
     margin-right: 4px;
 }
-
-
 #div2 {
   text-align: center;
 }
-
 #pE {
   font-size: 20px;
 }
-
 #mailto {
   font-size: 40px;
 }
-
-
-
-

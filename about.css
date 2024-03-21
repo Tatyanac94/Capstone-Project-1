@@ -2,16 +2,13 @@ html {
   height: 100%;
   width: 100%;
 }
-
 #myNav a {
   color: #FF3CAC;
 }
-
 #myNav a:hover {
   background-color: #6d1aa8;
   color: #FF3CAC;
 }
-
 body {
   padding-top: 30px;
   padding-bottom: 60px;
@@ -21,17 +18,13 @@ body {
   min-width: 100%;
   min-height: 100vh;
 }
-
 #msgDiv {
   font-weight: bold;
 }
-
 #msgDiv:hover {
   color: #FF3CAC;
 }
-
 #p {
   color: black;
   font-weight: bold;
 }
-

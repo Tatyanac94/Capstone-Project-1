@@ -2,17 +2,13 @@ html {
   height: 100%;
   width: 100%;
 }
-
 #myNav a {
   color: #2B86C5;
 }
-
 #myNav a:hover {
   background-color: #6d1aa8;
   color: #2B86C5;
 }
-
-
 body {
   padding-top: 30px;
   padding-bottom: 60px;
@@ -22,15 +18,12 @@ body {
   min-width: 100%;
   min-height: 100vh;
 }
-
 #title1 {
   font-weight: bold;
 }
-
 #title1:hover {
   color: #2B86C5;
 }
-
 #SB {
   margin-top: 10px;
   padding: 14px 20px;
@@ -40,13 +33,11 @@ body {
   font-weight: bold;
   font-size: 20px;
 }
-
 #myULS {
   margin-top: 10px;
   text-align: center;
   opacity: 0.5;
 }
-
 li {
   margin-top: 10px;
 

@@ -2,16 +2,13 @@ html {
   height: 100%;
   width: 100%;
 }
-
 #myNav a {
   color: #6d1aa8;
 }
-
 #myNav a:hover {
   background-color: #2B86C5;
   color: #6d1aa8;
 }
-
 p {
  display: inline-block;
     font-weight: bold;
@@ -19,13 +16,11 @@ p {
 p:hover {
   color: #6d1aa8;
 }
-
 #msgDiv {
   text-align: center;
   paddding-top: 10px;
   margin-bottom: 0px;
 }
-
 body {
   padding-top: 30px;
   padding-bottom: 60px;

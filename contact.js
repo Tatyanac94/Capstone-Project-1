@@ -7,8 +7,6 @@ document.addEventListener('DOMContentLoaded', function () {
   const close = document.querySelector('.btn-close');
 
 
-
-
 //I created a myEvents array. This code retrieves data from the localStorage using the key 'events'. myEvents is properly set up with default values in case there is no existing data in the localStorage under the key 'events'.
   const myEvents = JSON.parse(localStorage.getItem('events')) || [
     {
@@ -49,12 +47,10 @@ document.addEventListener('DOMContentLoaded', function () {
           close.addEventListener('click', () => {
             myModal.hide()
           })
-
-
-
         }
       }
     },
+    
     header: {
       center: 'customButton', // add your custom button here
       right: 'today, prev,next '
@@ -80,7 +76,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
         const eventIndex = myEvents.findIndex(event => event.id === info.event.id);
 
-
         document.body.appendChild(menu);
         menu.style.top = e.pageY + 'px';
         menu.style.left = e.pageX + 'px';
@@ -104,9 +99,6 @@ document.addEventListener('DOMContentLoaded', function () {
           endDateInput.value = moment(info.event.end, 'YYYY-MM-DD').subtract(1, 'day').format('YYYY-MM-DD');
           colorInput.value = info.event.backgroundColor;
           submitButton.innerHTML = 'Save Changes';
-
-
-
 
 
           editModal.show();
@@ -142,13 +134,10 @@ document.addEventListener('DOMContentLoaded', function () {
             calendarEvent.setEnd(updatedEvents.end);
             calendarEvent.setProp('backgroundColor', updatedEvents.backgroundColor);
 
-
-
+            
             editModal.hide();
 
           })
-
-
 
         });
 
@@ -173,9 +162,6 @@ document.addEventListener('DOMContentLoaded', function () {
           cancelModal.addEventListener('click', function () { 
             deleteModal.hide();
           })
-
-
-
 
         });
         document.addEventListener('click', function() {
@@ -213,8 +199,6 @@ document.addEventListener('DOMContentLoaded', function () {
       endDateInput.value = '';
     }
   });
-
-
   calendar.render();
 
   const form = document.querySelector('form');
@@ -263,7 +247,6 @@ document.addEventListener('DOMContentLoaded', function () {
     dangerAlert.style.display = 'none';
     form.reset(); 
   });
-
 });
 
 //I created a JavaScript function named sendEmail that  triggers the opening of the default email client with a pre-filled email address when called.

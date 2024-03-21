@@ -20,7 +20,6 @@ aboutMe(message, 140).forEach(promise => {
   });
 });
 
-
 // Added a click event listener for first button 
 const myImg = document.getElementById("myImg");
 const myButton = document.getElementById("myButton");
@@ -32,7 +31,6 @@ myButton.addEventListener("click", function() {
     myImg.src = "myImages/Tati1.jpg";
   }
 });
-
 
 // Added click event listener for second button
 const p = document.getElementById("p");
