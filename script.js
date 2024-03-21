@@ -1,5 +1,5 @@
 //I declared a constant variable named message, and assigned it to a string value ''.
-const message = 'Hello, I am Tatyana. An agile front-end & back-end, Software Developer and IT Support Technician.';
+const message = 'Hello, I am Tatyana. An agile front-end & back-end, Software Developer.';
 //This function takes in two parameters, message and timeout, which are used to control the typing effect delay. I then used the arrow function syntax to define the function.
 const typingPromises = (message, timeout) =>
   //I used the spread operator to convert the message string into an array to iterate over each character
