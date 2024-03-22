@@ -116,6 +116,12 @@ body{
 #pE {
   font-size: 20px;
 }
-#mailto {
+#p2 {
   font-size: 40px;
+  border-radius: 10px;
+  border-style: dashed dotted;
+  font-weight: bold;
+}
+#p2:hover {
+  color: #6d1aa8;
 }

@@ -249,8 +249,3 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-//I created a JavaScript function named sendEmail that  triggers the opening of the default email client with a pre-filled email address when called.
-function sendEmail()
-{
-  window.location="mailto:ms.cuttino94@gmail.com";
-}
