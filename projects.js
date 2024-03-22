@@ -13,12 +13,16 @@ let skillContainer = document.getElementById("myULS");
 let skillsButton = document.getElementById("SB");
 skillsButton.addEventListener("click", SkillsEvent);
 function SkillsEvent(){
-  for (let i = 1; i < skills.length - 1; i++){
-    let skill = document.createElement("li");
-    skill.classList.add("list-group-item");
-    skill.textContent = skills[i];
-   skillContainer.appendChild(skill);
-  } //I added an if statement to open an close list.
+  console.log(skillContainer, "skillContainer")
+  if (!skillContainer.firstChild) { 
+    for (let i = 1; i < skills.length; i++){
+      let skill = document.createElement("li");
+      skill.classList.add("list-group-item");
+      skill.textContent = skills[i];
+     skillContainer.appendChild(skill);
+    } 
+  }
+  //I added an if statement to open an close list.
   if (skillContainer.style.display === "none") {
     skillContainer.style.display = "block";
   } else {
